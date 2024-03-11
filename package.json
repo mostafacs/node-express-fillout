@@ -6,8 +6,8 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "start": "PORT=3000 PRETTY_PRINT=false node .dist/start.js",
-    "start:dev": "PORT=3000 PRETTY_PRINT=true nodemon src/start.ts"
+    "start": "PRETTY_PRINT=true node dist/start.js",
+    "start:dev": "PRETTY_PRINT=true nodemon src/start.ts"
   },
   "keywords": [
     "Rest"
